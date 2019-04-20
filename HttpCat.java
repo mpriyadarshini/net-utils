@@ -8,7 +8,7 @@ class HttpCat{
         BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
         int c;
         while((c=br.read())!=-1){
-            System.out.println((char)c);
+            System.out.print((char)c);
         }
         
 
